@@ -23,10 +23,13 @@ p span {
 }
 
 h1 {
-  font-size: 36px;
+    font-size: 36px;
+    margin-bottom: 44px;
+}
+
+h1,h2,h3 {
   color: #1B1B1B;
   font-weight: 700;
-  margin-bottom: 44px;
 }
 
 img {
@@ -51,9 +54,29 @@ img + p {
 }
 
 h2 {
+  font-size: 32px;
   margin: 2px auto 8px;
 }
 
 h2 + p {
   margin-bottom: 64px;
+}
+
+h3 {
+  margin-top: 20px;
+  padding-left: 4px;
+}
+
+h3 + p {
+  margin-top: 4px;
+}
+
+ul {
+  padding-left: 20px;
+  margin-bottom: 48px;
+}
+
+ul li {
+  color: #0C51A7;
+  font-weight: 700;
 }
