@@ -6,6 +6,8 @@
 
 :root {
   font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #333;
 }
 
 main {
@@ -13,6 +15,33 @@ main {
   margin: 88px auto 65px;
 }
 
+p span {
+  color: #E1624F;
+  margin-bottom: 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 36px;
+  color: #1B1B1B;
+  font-weight: 700;
+  margin-bottom: 44px;
+}
+
 img {
   border-radius: 28px;
+}
+
+img + p {
+  font-style: italic;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.separetor {
+  width: 1120px;
+  height: 1px;
+  margin-top: 40px;
+  background: #D9D9D9;
 }
