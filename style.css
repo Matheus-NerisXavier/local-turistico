@@ -92,3 +92,8 @@ ul li {
 .orange {
   color: #E95E10;
 }
+
+.description p {
+  text-align: center;
+  margin-top: 40px;
+}
